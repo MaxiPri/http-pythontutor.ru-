@@ -1,0 +1,9 @@
+v = int(input())
+t = int(input())
+l = 109
+if v < 0:
+    s = (abs(v) * t) % l
+    print(l-s)
+else:
+    s = (abs(v) * t) % l
+    print(s)
